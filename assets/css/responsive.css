@@ -1,0 +1,328 @@
+/* 400 */
+@media(min-width: 400px) {
+    .teacher_card {
+        width: calc(50% - 8px);
+    }
+
+    .teacher_card_img {
+        /* height: 260px; */
+    }
+}
+
+/* 576 */
+@media(min-width: 576px) {
+    .gallery_wrapper {
+        gap: 12px;
+    }
+
+    .event_slider_item {
+        width: calc(50% - 12px);
+    }
+
+    /* .notice_wrapper {
+        padding: 50px;
+    } */
+
+    .counter_achive_item {
+        width: calc(50% - 12px);
+    }
+
+    .video_wrapper {
+        height: 350px;
+    }
+
+    .teacher_card {
+        width: calc(33.33% - 11px);
+    }
+
+    .video_content {
+        padding: 20px;
+    }
+
+    .gallery_page_image {
+        width: calc(50% - 8px);
+    }
+
+}
+
+/* 768 */
+@media(min-width: 767px) {
+    .section_padding {
+        padding: 40px 0px;
+    }
+
+    .gallary_image {
+        grid-row: span 1;
+        grid-column: span 1;
+    }
+
+    .counter_achive_item {
+        width: calc(33.33% - 16px);
+    }
+
+    .gallary_image:nth-child(2),
+    .gallary_image:nth-child(4) {
+        grid-row: span 2;
+        display: flex;
+        grid-column: span 1;
+    }
+
+    .event_slider_item {
+        width: calc(33.33% - 16px);
+    }
+
+    .video_wrapper {
+        height: 450px;
+    }
+
+    .teacher_card {
+        width: calc(25% - 12px);
+    }
+
+    .video_content {
+        padding: 30px;
+    }
+
+    .board_result_content {
+        padding: 20px 30px;
+    }
+
+    .gallery_page_image {
+        width: calc(33.33% - 11px);
+    }
+
+}
+
+/* 1024 */
+@media(min-width: 992px) {
+    .section_padding {
+        padding: 50px 0px;
+    }
+
+    /* .counter_achive {
+        top: 50%;
+        transform: translateY(-50%);
+        padding: 0;
+    } */
+
+    .counter_achive_item {
+        width: calc(16.6666666667% - 20px);
+    }
+
+    .principal_image {
+        width: 300px;
+        height: 330px;
+        transform: rotate(-15deg);
+    }
+
+    .principal_image_overlay {
+        transform: rotate(12deg);
+        bottom: -42px;
+        left: 50px;
+    }
+
+    .event_slider_item {
+        width: calc(25% - 18px);
+    }
+
+    .banner_section {
+        padding-top: 60px;
+        padding-bottom: 150px;
+    }
+
+    .video_wrapper {
+        height: 500px;
+    }
+
+    .teacher_card_img {
+        /* height: 300px; */
+    }
+
+    .video_content {
+        padding: 50px;
+    }
+
+
+    .board_result_content {
+        padding: 30px 50px;
+    }
+}
+
+/* 1240 */
+@media(min-width: 1200px) {
+    .section_padding {
+        padding: 60px 0px;
+    }
+
+    .teacher_card {
+        width: calc(20% - 13px);
+    }
+
+    .gallery_page_image {
+        height: 300px;
+        width: calc(25% - 12px);
+    }
+}
+
+
+/* Styles for mobile devices (320px — 480px) */
+@media (max-width: 480px) {
+    .header_wrapper {
+        display: block;
+        padding: 10px;
+    }
+
+    .school_name {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .school_name a {
+        font-size: 30px;
+    }
+
+    .logo a {
+        width: 60px;
+    }
+
+    .toggle_nav {
+        position: absolute;
+        background: #fff;
+        padding: 10px;
+        border-radius: 50px;
+        right: 30px;
+        top: 100px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .toggle_nav ul {
+        width: 100%;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .slider__area {
+        margin-top: 20px;
+    }
+}
+
+/* Styles for iPads and Tablets (481px — 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+    .header_wrapper {
+        display: block;
+        padding: 10px;
+    }
+
+    .school_name {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .school_name a {
+        font-size: 40px;
+    }
+
+    .sidebar__info {
+        display: flex;
+        gap: 10px;
+    }
+
+    .single__info {
+        width: 50%;
+        margin-bottom: 0 !important;
+    }
+
+    .toggle_nav {
+        position: absolute;
+        background: #fff;
+        padding: 10px;
+        border-radius: 50px;
+        right: 30px;
+        top: 100px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .toggle_nav ul {
+        width: 100%;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .slider__area {
+        margin-top: 20px;
+    }
+}
+
+/* Styles for small screens and laptops (769px — 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .school_name a {
+        font-size: 50px;
+    }
+
+    .toggle_nav {
+        position: absolute;
+        background: #fff;
+        padding: 10px;
+        border-radius: 50px;
+        right: 20px;
+        top: 50px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .toggle_nav ul {
+        width: 100%;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .slider__area {
+        margin-top: 20px;
+    }
+}
+
+/* Styles for desktops and large screens (1025px — 1200px) */
+@media (min-width: 1025px) and (max-width: 1200px) {}
+
+/* Styles for extra-large screens and TV (1201px and more) */
+@media (min-width: 1201px) {}
+
+
+
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .university__contact {
+        height: 100px;
+    }
+
+    .slider__content {
+        padding: 0 50px;
+    }
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {}
+
+@media (min-width: 768px) and (max-width: 790px) {}
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {}
+
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .header_contact {
+        display: flex;
+        justify-content: center;
+    }
+
+    .clock {
+        justify-content: center;
+    }
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
